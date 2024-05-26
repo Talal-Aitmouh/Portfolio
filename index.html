@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talal</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="website icon" type="png" href="./img/png.png" />
+    
+  </head>
+  <body>
+    <header class="header" id="home">
+      <label data-aos="fade-right" class="mode">
+        <input type="checkbox" id="darkModeToggle" />
+        <span class="material-symbols-outlined">settings</span>
+      </label>
+      
+      <nav id="navbar">
+        <a href="#"><i class="fa fa-house fa-lg"></i></a>
+        <a href="#about"><i class="fa fa-user fa-lg"></i></a>
+        <a href="#resume"><i class="fa-solid fa-user-graduate fa-lg"></i></a>
+        <a href="#skills"><i class="fa-solid fa-briefcase fa-lg"></i></a>
+        <a href="#portfolio"><i class="fa-regular fa-address-card fa-lg"></i></a>
+        <a href="#contact"><i class="fa-solid fa-message fa-lg"></i></a>
+      </nav>
+      <div class="header-content">
+        <div  class="left-header">
+          <div class="h-shape"></div>
+          <div data-aos="fade-right" class="image">
+            <img src="./img/IMG_20220311_221600_645.jpg" alt="" />
+          </div>
+        </div>
+
+        <div data-aos="fade-left" class="right-header">
+          <h1 class="name">
+            Hi, I'm <span class="nom">Talal Ait-Mouh</span>
+            <span class="auto"></span>
+          </h1>
+          <p>
+            a passionate web developer specializing in creating beautiful and
+            functional websites. With a keen eye for design and a strong focus
+            on user experience, I craft digital experiences that leave a lasting
+            impression.
+          </p>
+
+          <div class="btn-con">
+            <a href="./cv.pdf" class="main-btn" download>
+              <span class="btn-text">Download CV</span>
+              <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button id="backToTopBtn">
+        
+        <svg
+            stroke-width="2"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            fill="none"
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+        >
+            <path
+            d="M14 5l7 7m0 0l-7 7m7-7H3"
+            stroke-linejoin="round"
+            stroke-linecap="round"
+            ></path>
+        </svg>
+    </button>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="main-title">
+          <h2>About <span>Me</span></h2>
+        </div>
+        <div class="about-container">
+          <div class="left-about">
+            <h4>Information About me</h4>
+            <!-- <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet labore nihil obcaecati consequatur. Debitis error doloremque, 
+                        vero eos vel nemo eius voluptatem dicta tenetur modi.  La musica
+                    </p> -->
+            <div class="personal-info">
+              <ul class="personal-info-list">
+                <li class="info">Name : <span>Talal</span></li>
+                <li class="info">Last Name : <span>Aitmouh</span></li>
+                <li class="info">Age : <span>22 Years</span></li>
+                <li class="info">Nationality : <span>Morrocan</span></li>
+              </ul>
+              <ul class="personal-info-list">
+                <li class="info">Address : <span>Ouarzazate</span></li>
+                <li class="info">Phone : <span>+212-6273197262</span></li>
+                <li class="info">
+                  Email : <span>Talalait1234@gmail.com</span>
+                </li>
+                <li class="info">Freelance : <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-about">
+            <div data-aos="zoom-in" class="about-item">
+              <div class="abt-text">
+                <p class="large-text">+20</p>
+                <p class="small-text">
+                  Projects <br />
+                  Completed
+                </p>
+              </div>
+            </div>
+            <div data-aos="zoom-in" class="about-item">
+              <div class="abt-text">
+                <p class="large-text">2</p>
+                <p class="small-text">
+                  Years of <br />
+                  experience
+                </p>
+              </div>
+            </div>
+            <div data-aos="zoom-in" class="about-item">
+              <div class="abt-text">
+                <p class="large-text"></p>
+                <p class="small-text">Experience with Responsive Design</p>
+              </div>
+            </div>
+            <div data-aos="zoom-in" class="about-item">
+              <div class="abt-text">
+                <p class="large-text">100%</p>
+                <p class="small-text">Positive Feedback from Clients</p>
+              </div>
+            </div>
+
+            <div data-aos="zoom-in" class="about-item">
+              <div class="abt-text">
+                <p class="large-text">2</p>
+                <p class="small-text">Team Projects</p>
+              </div>
+            </div>
+            <div data-aos="zoom-in" class="about-item">
+              <div class="abt-text">
+                <p class="large-text"></p>
+                <p class="small-text">
+                  Basic Understanding of Git and Version Control
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="resume">
+        <div class="row resume-timeline">
+          <div class="col-twelve resume-header">
+            <h2>Education</h2>
+          </div>
+          <!-- /resume-header -->
+
+          <div class="col-twelve">
+            <div class="timeline-wrap">
+              <div class="timeline-block">
+                <div data-aos="fade-right" class="timeline-ico">
+                  <i class="fa fa-briefcase"></i>
+                </div>
+
+                <div class="timeline-header">
+                  <h3>TS Digital <br />Development</h3>
+                  <p>Sept 2023 - Present</p>
+                </div>
+
+                <div data-aos="fade-right" class="timeline-content">
+                  <h4>ISTA OUARZAZATE</h4>
+                  <p>
+                    Studied web development and design. <br>
+                    Worked on projects to create responsive and dynamic websites. <br>
+                    Gained skills in HTML, CSS, JavaScript, and modern frameworks. <br>
+                    Learned about modern frameworks including Laravel, Next.js, and Node.js.
+                  </p>
+                </div>
+              </div>
+              <!-- /timeline-block -->
+              <div class="timeline-block">
+                <div data-aos="fade-right" class="timeline-ico">
+                  <i class="fa fa-briefcase"></i>
+                </div>
+
+                <div class="timeline-header">
+                  <h3>
+                    Computer Basic<br />
+                    Cybersecurity <br />
+                    Python
+                  </h3>
+                  <p>Feb 2024</p>
+                </div>
+
+                <div data-aos="fade-right" class="timeline-content">
+                  <h4>CISCO</h4>
+                  <p>
+                    Gained knowledge in Cybersecurity principles, including network security, cryptography, and ethical hacking <br>
+                    Learned Python programming language for automation, scripting, and data analysis, with a focus on cybersecurity applications <br>
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-block">
+                <div data-aos="fade-right" class="timeline-ico">
+                  <i class="fa fa-briefcase"></i>
+                </div>
+
+                <div class="timeline-header">
+                  <h3>UI UX Design</h3>
+                  <p>Mai 2023 - Sept 2023 </p>
+                </div>
+
+                <div data-aos="fade-right" class="timeline-content">
+                  <h4>GOMYCODE</h4>
+                  <p>
+                    Acquired skills in UI/UX Design principles, including user research, wireframing, prototyping, and usability testing <br>
+                    Applied UI/UX Design concepts to create intuitive and user-friendly interfaces for digital products and services <br>
+                  </p>
+                </div>
+              </div>
+              <!-- /timeline-block -->
+
+              <!-- /timeline-block -->
+            </div>
+            <!-- /timeline-wrap -->
+          </div>
+          <!-- /col-twelve -->
+        </div>
+      </section>
+      <section class="about" id="skills">
+        <div class="main-title">
+          <h2>My <span>SKILLS</span></h2>
+        </div>
+        <p class="port-text">
+          Here are some of my skills and expertise in various programming
+          languages: HTML/CSS, JavaScript, Python, Mysql, SQL, Git, etc.
+        </p>
+        <div class="about-stats">
+          <div class="progress-bars">
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">html5</p>
+              <div class="progress-con">
+                <p class="prog-text">89%</p>
+                <div class="progress">
+                  <span class="html"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">css3</p>
+              <div class="progress-con">
+                <p class="prog-text">80%</p>
+                <div class="progress">
+                  <span class="css"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">Javascript</p>
+              <div class="progress-con">
+                <p class="prog-text">50%</p>
+                <div class="progress">
+                  <span class="JS"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">Bootstrap</p>
+              <div class="progress-con">
+                <p class="prog-text">60%</p>
+                <div class="progress">
+                  <span class="FIGMA"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">Php</p>
+              <div class="progress-con">
+                <p class="prog-text">50%</p>
+                <div class="progress">
+                  <span class="ILLUSTRATOR"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">Mysql</p>
+              <div class="progress-con">
+                <p class="prog-text">70%</p>
+                <div class="progress">
+                  <span class="PHOTOSHOP"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">Python</p>
+              <div class="progress-con">
+                <p class="prog-text">60%</p>
+                <div class="progress">
+                  <span class="python"></span>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="progress-bar">
+              <p class="prog-title">Git</p>
+              <div class="progress-con">
+                <p class="prog-text">35%</p>
+                <div class="progress">
+                  <span class="JS"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tools" id="skills">
+        <h4 class="stat-title">Tools</h4>
+        <div class="tools-bar">
+          <div data-aos="zoom-in"
+     data-aos-duration="300" class="tools-item">
+            <img src="./img/visual-studio-code-icon.png" alt="" />
+            <p class="small-text">VS Code</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="400" class="tools-item">
+            <img src="./img/figma-icon.png" alt="" />
+            <p class="small-text">Figma</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="500" class="tools-item">
+            <img src="./img/adobe-illustrator-icon.png" alt="" />
+            <p class="small-text">Illustrator</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="600" class="tools-item">
+            <img src="./img/adobe-photoshop-icon.png" alt="" />
+            <p class="small-text">Photoshop</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="700" class="tools-item">
+            <img src="./img/adobe-xd-icon.png" alt="" />
+            <p class="small-text">Adobe Xd</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="800" class="tools-item">
+            <img src="./img/github-icon.png" alt="" />
+            <p class="small-text">Github</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="900" class="tools-item">
+            <img src="./img//pycharm-icon.png" alt="" />
+            <p class="small-text">Pycharm</p>
+          </div>
+          <div data-aos="zoom-in"
+     data-aos-duration="1000" class="tools-item">
+            <img src="./img/600px-Bootstrap_Studio_Logo.png" alt="" />
+            <p class="small-text">Bootstrap Studio</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="main-title">
+          <h2>My <span>Portfolio</span></h2>
+        </div>
+        <p class="port-text">
+          Here is some of my work that I've done in various programming
+          languages.
+        </p>
+        <div class="portfolios">
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="./img/eco.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Adidace Shoes</h3>
+              <div class="icons">
+                <a href="https://github.com/Talal-Aitmouh/E-co" target="_blank" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                
+                <a href="https://talal-aitmouh.github.io/E-co/" target="_blank" class="icon">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="./img/omni.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Omni Food</h3>
+              <div class="icons">
+                <a href="https://github.com/Talal-Aitmouh/Omni" target="_blank" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                
+                <a href="https://talal-aitmouh.github.io/Omni/" target="_blank" class="icon">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/imk.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>E-Learning</h3>
+              <div class="icons">
+                <a href="https://www.figma.com/file/XsVFwgicmoOtzfzJR9Rwrh/Untitled?type=design&node-id=0-1&mode=design&t=4qnPR5eZQpn1ZR2F-0" target="_blank" class="icon">
+                  <i class="fa-brands fa-figma"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/portfolio.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Portfolio</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/Talal-Aitmouh/portfolio"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                
+                <a
+                  href="https://talal-aitmouh.github.io/portfolio/"
+                  target="_blank"
+                  class="icon"
+                >
+                  <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/natman.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Movies</h3>
+              <div class="icons">
+                <a href="" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/sos24.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Ambulance Projet</h3>
+              <div class="icons">
+                <a
+                  href="https://github.com/Talal-Aitmouh/Ambulance"
+                  class="icon"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                
+                <a
+                  href="https://talal-aitmouh.github.io/Ambulance/"
+                  class="icon"
+                  target="_blank"
+                >
+                  <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/Web 1920 – 6.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Ushuaia</h3>
+              <div class="icons">
+                <a href="https://www.behance.net/gallery/198052109/Ushuaia-Swiper" target="_blank" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/var.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <h3>Porsche</h3>
+              <div class="icons">
+                <a href="https://www.behance.net/gallery/198130179/Porsche-swiper?" target="_blank" class="icon">
+                  <i class="fab fa-behance"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="portfolio-item">
+            <div class="image">
+              <img src="img/TCHABALAY.png" alt="" />
+            </div>
+            <div class="hover-items">
+              <div class="icons">
+                <a href="https://github.com/Talal-Aitmouh/pubg" target="_blank" class="icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                
+                <a href="https://talal-aitmouh.github.io/pubg/" class="icon">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass fa-fade"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container contact" id="contact">
+        <div class="contact-container">
+          <div class="main-title">
+            <h2>Contact <span>Me</span></h2>
+          </div>
+          <div class="contact-content-con">
+            <div class="left-contact">
+              <h4>Contact me here</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                laborum numquam? Quam excepturi perspiciatis quas quasi.
+              </p>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Location</span>
+                  </div>
+                  <p>: OUARZAZATE</p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                  </div>
+                  <p>
+                    <span>: Talalait44@gmail.com</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Education</span>
+                  </div>
+                  <p>
+                    <span>: OFPPT</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                    <span>Mobile Number</span>
+                  </div>
+                  <p>
+                    <span>: +212 673197262</span>
+                  </p>
+                </div>
+                <div class="contact-item">
+                  <div class="icon">
+                    <i class="fas fa-globe-africa"></i>
+                    <span>Languages</span>
+                  </div>
+                  <p>
+                    <span>: Arabic, English, Frensh</span>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-icons">
+                <div class="contact-icon">
+                  <a href="www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="right-contact">
+              <form id="form" class="contact-form">
+                <div class="input-control i-c-2">
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    placeholder="YOUR NAME"
+                    id="name"
+                  />
+                  <input
+                    type="email"
+                    name="email_id"
+                    required
+                    placeholder="YOUR EMAIL"
+                    id="email_id"
+                  />
+                </div>
+                <div class="input-control">
+                  <input type="text" id="subject" name="subject" required placeholder="ENTER SUBJECT" />
+                </div>
+    
+                <div class="input-control">
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="15"
+                    rows="8"
+                    placeholder="Message Here..."
+                  ></textarea>
+                </div>
+
+                <input type="submit" class="send" id="button" value="Send Email" >
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('ie8U6rwwCBPA5vPaF')
+  </script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const typed = new Typed(".auto", {
+        strings: [" A Web Developper", " A Programmer", "A Web designer"],
+        typeSpeed: 90,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
