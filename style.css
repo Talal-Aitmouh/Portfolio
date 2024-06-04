@@ -25,18 +25,10 @@
 html {
     scroll-behavior: smooth;
   }
-body::-webkit-scrollbar-track {
-    background: #fdf2e9;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: var(--color-secondary);
-    height: 30%;
-}
-
 body::-webkit-scrollbar {
-    width: 10px;
+   display: none;
 }
+
 
 
 
